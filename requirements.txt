@@ -1,0 +1,3 @@
+del requirements.txt
+echo click==8.1.7 > requirements.txt
+type requirements.txt

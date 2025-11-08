@@ -1,0 +1,182 @@
+[
+  {
+    "id": "93878607-3551-4b10-87de-181b854aab67",
+    "command": "echo 'Hello World'",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 3,
+    "created_at": "2025-11-08T18:04:09.823233",
+    "updated_at": "2025-11-08T18:04:51.342323",
+    "next_retry_at": null
+  },
+  {
+    "id": "088ff230-8aa7-4377-a72f-81c0664aea2e",
+    "command": "echo 'Hello World'",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:04:51.120039",
+    "updated_at": "2025-11-08T18:04:51.360351",
+    "next_retry_at": null
+  },
+  {
+    "id": "3c5000fe-6154-48f2-ae0c-740ba0e76586",
+    "command": "timeout 2",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:04:51.142998",
+    "updated_at": "2025-11-08T18:04:53.211948",
+    "next_retry_at": null
+  },
+  {
+    "id": "905560ba-3b22-4169-b3b3-9d3673da65a0",
+    "command": "invalid_command_123",
+    "state": "dead",
+    "attempts": 5,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:04:51.170317",
+    "updated_at": "2025-11-08T18:08:14.543680",
+    "next_retry_at": "2025-11-08T18:06:51.767012"
+  },
+  {
+    "id": "b405a08f-3f17-4a16-9451-dc4fad86d0b1",
+    "command": "dir",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 2,
+    "created_at": "2025-11-08T18:04:51.196854",
+    "updated_at": "2025-11-08T18:04:51.580087",
+    "next_retry_at": null
+  },
+  {
+    "id": "b794aec4-0df2-4842-834d-4c741562682a",
+    "command": "echo 'Hello World'",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:06:35.563631",
+    "updated_at": "2025-11-08T18:06:35.792224",
+    "next_retry_at": null
+  },
+  {
+    "id": "8ca95847-9269-4736-b9a8-a321002b1c99",
+    "command": "timeout 2",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:06:35.597893",
+    "updated_at": "2025-11-08T18:06:37.144247",
+    "next_retry_at": null
+  },
+  {
+    "id": "4f28cfe0-fe8a-4a41-a261-74cdc8dfd027",
+    "command": "invalid_command_123",
+    "state": "failed",
+    "attempts": 4,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:06:35.623118",
+    "updated_at": "2025-11-08T18:08:14.566812",
+    "next_retry_at": "2025-11-08T18:08:30.566557"
+  },
+  {
+    "id": "823ca5cc-ae2b-4644-aab2-d12bba7f3730",
+    "command": "dir",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 2,
+    "created_at": "2025-11-08T18:06:35.648488",
+    "updated_at": "2025-11-08T18:06:35.990110",
+    "next_retry_at": null
+  },
+  {
+    "id": "d527f487-b4b5-4fd2-8975-2b01e6af6f86",
+    "command": "echo 'Hello World'",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:08:14.340776",
+    "updated_at": "2025-11-08T18:08:14.662434",
+    "next_retry_at": null
+  },
+  {
+    "id": "f927d9ac-1684-4e5e-87d3-c92e3a1e2e9d",
+    "command": "timeout 2",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:08:14.379144",
+    "updated_at": "2025-11-08T18:08:16.213117",
+    "next_retry_at": null
+  },
+  {
+    "id": "a00e4cc0-d6c7-42c1-ac82-dea3da13f8fd",
+    "command": "invalid_command_123",
+    "state": "failed",
+    "attempts": 3,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:08:14.407645",
+    "updated_at": "2025-11-08T18:08:21.034427",
+    "next_retry_at": "2025-11-08T18:08:29.033991"
+  },
+  {
+    "id": "86f46d8a-2692-446e-aabb-1044dfa18e48",
+    "command": "dir",
+    "state": "completed",
+    "attempts": 0,
+    "max_retries": 2,
+    "created_at": "2025-11-08T18:08:14.432734",
+    "updated_at": "2025-11-08T18:08:14.837839",
+    "next_retry_at": null
+  },
+  {
+    "id": "24b955ac-448b-48bc-abb8-fc8ac9cfaf47",
+    "command": "echo \"Hello JSON World\"",
+    "state": "pending",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:11:56.649583",
+    "updated_at": "2025-11-08T18:11:56.649607",
+    "next_retry_at": null
+  },
+  {
+    "id": "d5dd9396-8920-4ccf-b88d-dc018d74ebfe",
+    "command": "echo 'Hello World'",
+    "state": "pending",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:14:41.807855",
+    "updated_at": "2025-11-08T18:14:41.807884",
+    "next_retry_at": null
+  },
+  {
+    "id": "4c054dc3-6ffc-4e06-a1b8-339b2dae99b5",
+    "command": "dir",
+    "state": "pending",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:14:52.789516",
+    "updated_at": "2025-11-08T18:14:52.789581",
+    "next_retry_at": null
+  },
+  {
+    "id": "be1fcb5d-4511-4168-9c65-18d9758c6724",
+    "command": "invalid_command_test",
+    "state": "pending",
+    "attempts": 0,
+    "max_retries": 5,
+    "created_at": "2025-11-08T18:17:11.633067",
+    "updated_at": "2025-11-08T18:17:11.633093",
+    "next_retry_at": null
+  },
+  {
+    "id": "f638b7b3-d00c-4f51-9ec1-13a4333b79fc",
+    "command": "timeout 1",
+    "state": "pending",
+    "attempts": 0,
+    "max_retries": 2,
+    "created_at": "2025-11-08T18:18:03.576338",
+    "updated_at": "2025-11-08T18:18:03.576378",
+    "next_retry_at": null
+  }
+]
